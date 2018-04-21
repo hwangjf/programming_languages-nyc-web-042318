@@ -6,7 +6,7 @@ def reformat_languages(languages)
     name.each do |name, type|
       type.each do |type, type_name|
         for lang in language_array
-          
+          new_hash[lang] = 
         end
       end
     end
