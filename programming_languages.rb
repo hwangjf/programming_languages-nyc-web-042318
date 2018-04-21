@@ -1,5 +1,7 @@
 def reformat_languages(languages)
   new_hash = {}
+  type_string = ""
+  style_array = []
   arr = languages[:oo].keys + languages[:functional].keys
   language_array = arr.uniq
   languages.each do |style, name|
