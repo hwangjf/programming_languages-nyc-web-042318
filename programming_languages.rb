@@ -4,8 +4,7 @@ def reformat_languages(languages)
   language_array = arr.uniq
   languages.each do |style, name|
     name.each do |type, type_name|
-      new_hash[name] = {type => type_name,
-      :style => "a"}
+      puts type_name
     end
   end
 end
