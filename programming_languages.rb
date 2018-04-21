@@ -4,7 +4,7 @@ def reformat_languages(languages)
   language_array = arr.uniq
   languages.each do |style, name|
     name.each do |type, type_name|
-      puts type_name
+      puts type
     end
   end
 end
