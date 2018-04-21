@@ -9,4 +9,3 @@ def reformat_languages(languages)
   end
 end
 
-reformat_languages(languages)
