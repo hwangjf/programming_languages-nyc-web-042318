@@ -5,7 +5,9 @@ def reformat_languages(languages)
   languages.each do |style, name|
     name.each do |name, type|
       type.each do |type, type_name|
-        puts type_name
+        for lang in language_array
+          
+        end
       end
     end
   end
